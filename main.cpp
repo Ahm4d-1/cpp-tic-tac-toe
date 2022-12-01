@@ -94,6 +94,7 @@ void printBoard(string gameBoard[ROWS][COLS]){
 }
 
 // TODO: improve input range from 0-2 to 1-3
+// TOOD: add extra validation of user input before extracting begin & back [such as enter key]
 string getUserPosition(string letterTurn, string gameBoard[ROWS][COLS]) {
 
     string position;
